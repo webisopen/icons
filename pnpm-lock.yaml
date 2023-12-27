@@ -66,9 +66,6 @@ importers:
 
   packages/web3-icons-react:
     devDependencies:
-      '@biomejs/biome':
-        specifier: ^1.4.1
-        version: 1.4.1
       '@svgr/core':
         specifier: ^8.1.0
         version: 8.1.0(typescript@5.3.3)

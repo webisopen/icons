@@ -71,10 +71,10 @@ await fs.writeFile(
 process.stdout.write(' DONE!\n')
 
 // 2. Format
-process.stdout.write('Formatting...')
+// process.stdout.write('Formatting...')
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
-execSync(`npx biome format ${resolve(root, 'src')} --write`, { cwd: root })
-process.stdout.write(' DONE!\n')
+// execSync(`npx biome format ${resolve(root, 'src')} --write`, { cwd: root })
+// process.stdout.write(' DONE!\n')
 
 // 3. Compile
 process.stdout.write('Compiling...')
