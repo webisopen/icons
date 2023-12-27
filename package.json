@@ -1,0 +1,23 @@
+{
+	"name": "@rss3/web3-icons-monorepo",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Icons for Web3",
+	"license": "MIT",
+	"scripts": {
+		"dev:docs": "pnpm -r --filter='./apps/docs' run dev",
+		"lint": "biome check .",
+		"lint:fix": "biome check . --apply",
+		"build": "pnpm -r --filter='./packages/*' run build"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.4.1",
+		"@types/node": "^20.10.5",
+		"svgo": "^3.1.0",
+		"svgpath": "^2.6.0",
+		"svgson": "^5.3.1",
+		"tsup": "^8.0.1",
+		"typescript": "^5.3.3"
+	},
+	"packageManager": "pnpm@8.12.1"
+}

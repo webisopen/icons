@@ -1,0 +1,13 @@
+{
+	"name": "@rss3/web3-icons-svg",
+	"version": "1.0.0",
+	"description": "Svg Icons for Web3",
+	"license": "MIT",
+	"scripts": {
+		"build": "node ./scripts/build.mjs"
+	},
+	"files": ["icons"],
+	"publishConfig": {
+		"access": "public"
+	}
+}
