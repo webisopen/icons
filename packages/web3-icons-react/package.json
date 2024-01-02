@@ -1,6 +1,6 @@
 {
 	"name": "@rss3/web3-icons-react",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"description": "React Icons for Web3",
 	"license": "MIT",
 	"exports": {
@@ -28,7 +28,9 @@
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.ts",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "node ./scripts/build.mjs"
 	},
