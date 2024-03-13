@@ -10,8 +10,6 @@ export function Card({
 	return (
 		<a
 			href={href}
-			target="_blank"
-			rel="noreferrer"
 			className="bg-zinc-200 hover:bg-zinc-300 dark:bg-zinc-800 dark:hover:bg-zinc-700 rounded-lg shadow-lg p-4 flex items-center justify-between"
 		>
 			<div>
