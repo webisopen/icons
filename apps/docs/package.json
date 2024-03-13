@@ -1,27 +1,18 @@
 {
 	"name": "@rss3/web3-icons-docs",
-	"private": true,
-	"version": "1.0.0",
-	"license": "MIT",
+	"version": "0.0.0",
+	"type": "module",
 	"scripts": {
-		"postinstall": "cd ../../packages/web3-icons-react && npm run build && cd -",
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"export": "next build && next export"
+		"dev": "vocs dev",
+		"build": "vocs build",
+		"preview": "vocs preview"
 	},
 	"dependencies": {
 		"@rss3/web3-icons-react": "workspace:^",
-		"next": "^13.5.6",
-		"nextra": "3.0.0-alpha.10",
-		"nextra-theme-docs": "3.0.0-alpha.10",
+		"@types/react": "^18.2.65",
 		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
-	},
-	"devDependencies": {
-		"autoprefixer": "^10.4.16",
-		"@types/react": "^18.2.33",
-		"postcss": "^8.4.31",
-		"tailwindcss": "^3.4.0"
+		"react-dom": "^18.2.0",
+		"typescript": "^5.4.2",
+		"vocs": "latest"
 	}
 }

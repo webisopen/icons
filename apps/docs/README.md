@@ -1,14 +1,1 @@
-# Web3 Icons Docs
-
-## Usage
-
-```
-npm i
-
-// for dev
-npm run dev
-```
-
-## License
-
-This project is licensed under the MIT License.
+This is a [Vocs](https://vocs.dev) project bootstrapped with the Vocs CLI.

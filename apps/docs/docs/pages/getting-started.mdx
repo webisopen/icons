@@ -1,26 +1,22 @@
-import { Cards } from 'nextra/components'
+import { Card } from '../components/card';
 
-# Integrations
+# Get started
 
----
 
-<Cards>
-<Cards.Card
+<div className="grid grid-cols-3 gap-2">
+  <Card
     title="SVG"
     href="/integrations/svg"
-    arrow
     icon={<img alt="SVG" width="20px" src="https://cdn.svgporn.com/logos/svg.svg" />}
   />
-  <Cards.Card
+  <Card
     title="React"
     href="/integrations/react"
-    arrow
     icon={<img alt="React" width="20px" src="https://cdn.svgporn.com/logos/react.svg" />}
   />
-  <Cards.Card
+  <Card
     title="Vue"
     href="/integrations/vue"
-    arrow
     icon={<img alt="Vue" width="20px" src="https://cdn.svgporn.com/logos/vue.svg" />}
   />
-</Cards>
+</div>
