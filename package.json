@@ -1,7 +1,6 @@
 {
 	"name": "@rss3/web3-icons-monorepo",
-	"version": "0.0.3",
-	"private": true,
+	"version": "0.0.4",
 	"description": "Icons for Web3",
 	"license": "MIT",
 	"scripts": {
