@@ -1,0 +1,97 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="100" height="100" fill="black"/>
+<rect x="30" y="64" width="2" height="2" fill="white"/>
+<rect x="32" y="70" width="36" height="2" fill="white"/>
+<rect width="2" height="2" transform="matrix(-1 0 0 1 70 64)" fill="white"/>
+<rect x="30" y="46" width="40" height="16" fill="white"/>
+<rect x="28" y="48" width="44" height="14" fill="white"/>
+<rect width="40" height="2" transform="matrix(1 0 0 -1 30 48)" fill="white"/>
+<rect width="44" height="2" transform="matrix(1 0 0 -1 28 48)" fill="white"/>
+<rect width="44" height="2" transform="matrix(1 0 0 -1 28 46)" fill="white"/>
+<rect x="30" y="62" width="40" height="4" fill="white"/>
+<rect x="28" y="62" width="44" height="6" fill="white"/>
+<rect x="32" y="66" width="36" height="2" fill="white"/>
+<rect x="30" y="68" width="40" height="2" fill="white"/>
+<rect x="36" y="56" width="2" height="2" transform="rotate(-90 36 56)" fill="black"/>
+<rect x="36" y="48" width="2" height="2" transform="rotate(-90 36 48)" fill="black"/>
+<rect x="38" y="48" width="2" height="2" transform="rotate(-90 38 48)" fill="black"/>
+<rect x="40" y="48" width="2" height="4" transform="rotate(-90 40 48)" fill="black"/>
+<rect x="42" y="52" width="2" height="4" transform="rotate(90 42 52)" fill="black"/>
+<rect x="42" y="50" width="2" height="4" transform="rotate(90 42 50)" fill="black"/>
+<rect x="42" y="48" width="2" height="4" transform="rotate(90 42 48)" fill="black"/>
+<rect x="34" y="56" width="8" height="2" transform="rotate(-90 34 56)" fill="black"/>
+<rect x="38" y="56" width="2" height="2" transform="rotate(-90 38 56)" fill="black"/>
+<rect x="40" y="56" width="2" height="4" transform="rotate(-90 40 56)" fill="black"/>
+<rect x="44" y="56" width="4" height="2" transform="rotate(-90 44 56)" fill="black"/>
+<rect x="44" y="52" width="4" height="2" transform="rotate(-90 44 52)" fill="black"/>
+<rect width="2" height="2" transform="matrix(-1.31134e-07 1 1 1.31134e-07 54 51)" fill="black"/>
+<rect width="2" height="2" transform="matrix(-1.31134e-07 1 1 1.31134e-07 56 51)" fill="black"/>
+<rect width="2" height="4" transform="matrix(-1.31134e-07 1 1 1.31134e-07 58 51)" fill="black"/>
+<rect x="52" y="54" width="2" height="0.5" transform="rotate(90 52 54)" fill="black"/>
+<rect x="51.5" y="54" width="2" height="0.5" transform="rotate(90 51.5 54)" fill="black"/>
+<rect x="51" y="54" width="2" height="1" transform="rotate(90 51 54)" fill="black"/>
+<rect x="50" y="56" width="2" height="0.5" transform="rotate(90 50 56)" fill="black"/>
+<rect x="49.5" y="56" width="2" height="0.5" transform="rotate(90 49.5 56)" fill="black"/>
+<rect x="49" y="56" width="2" height="1" transform="rotate(90 49 56)" fill="black"/>
+<rect x="40" y="50" width="2" height="0.5" transform="rotate(90 40 50)" fill="white"/>
+<rect x="39.5" y="50" width="2" height="0.5" transform="rotate(90 39.5 50)" fill="white"/>
+<rect x="39" y="50" width="2" height="1" transform="rotate(90 39 50)" fill="white"/>
+<rect x="38" y="48" width="6" height="0.5" transform="rotate(90 38 48)" fill="white"/>
+<rect x="37.5" y="48" width="6" height="0.5" transform="rotate(90 37.5 48)" fill="white"/>
+<rect x="37" y="48" width="6" height="1" transform="rotate(90 37 48)" fill="white"/>
+<rect x="44" y="48" width="6" height="0.5" transform="rotate(90 44 48)" fill="white"/>
+<rect x="43.5" y="48" width="6" height="0.5" transform="rotate(90 43.5 48)" fill="white"/>
+<rect x="43" y="48" width="6" height="1" transform="rotate(90 43 48)" fill="white"/>
+<rect width="2" height="0.5" transform="matrix(-2.40413e-07 1 1 5.68248e-07 62 53)" fill="black"/>
+<rect width="2" height="0.5" transform="matrix(-2.40413e-07 1 1 5.68248e-07 62.5 53)" fill="black"/>
+<rect width="2" height="1" transform="matrix(-2.40413e-07 1 1 5.68248e-07 63 53)" fill="black"/>
+<rect width="2" height="0.5" transform="matrix(-2.40413e-07 1 1 5.68248e-07 64 55)" fill="black"/>
+<rect width="2" height="0.5" transform="matrix(-2.40413e-07 1 1 5.68248e-07 64.5 55)" fill="black"/>
+<rect width="2" height="1" transform="matrix(-2.40413e-07 1 1 5.68248e-07 65 55)" fill="black"/>
+<rect width="2" height="0.5" transform="matrix(-2.40413e-07 1 1 5.68248e-07 50 56)" fill="black"/>
+<rect width="2" height="0.5" transform="matrix(-2.40413e-07 1 1 5.68248e-07 50.5 56)" fill="black"/>
+<rect width="2" height="1" transform="matrix(-2.40413e-07 1 1 5.68248e-07 51 56)" fill="black"/>
+<rect width="2" height="0.5" transform="matrix(-2.40413e-07 1 1 5.68248e-07 64 47)" fill="black"/>
+<rect width="2" height="0.5" transform="matrix(-2.40413e-07 1 1 5.68248e-07 64.5 47)" fill="black"/>
+<rect width="2" height="1" transform="matrix(-2.40413e-07 1 1 5.68248e-07 65 47)" fill="black"/>
+<rect width="2" height="0.5" transform="matrix(-2.40413e-07 1 1 5.68248e-07 62 49)" fill="black"/>
+<rect width="2" height="0.5" transform="matrix(-2.40413e-07 1 1 5.68248e-07 62.5 49)" fill="black"/>
+<rect width="2" height="1" transform="matrix(-2.40413e-07 1 1 5.68248e-07 63 49)" fill="black"/>
+<rect x="43" y="62" width="2" height="2" fill="black"/>
+<rect x="55" y="62" width="2" height="2" fill="black"/>
+<rect x="45" y="64" width="2" height="2" fill="black"/>
+<rect x="53" y="64" width="2" height="2" fill="black"/>
+<rect x="57" y="60" width="2" height="2" fill="black"/>
+<rect x="57" y="62" width="2" height="2" fill="black"/>
+<rect x="57" y="64" width="2" height="2" fill="black"/>
+<rect x="59" y="66" width="2" height="2" fill="black"/>
+<rect x="61" y="66" width="2" height="2" fill="black"/>
+<rect x="59" y="58" width="2" height="2" fill="black"/>
+<rect width="2" height="2" transform="matrix(-1 0 0 1 43 60)" fill="black"/>
+<rect width="2" height="2" transform="matrix(-1 0 0 1 43 62)" fill="black"/>
+<rect width="2" height="2" transform="matrix(-1 0 0 1 43 64)" fill="black"/>
+<rect width="2" height="2" transform="matrix(-1 0 0 1 41 66)" fill="black"/>
+<rect width="2" height="2" transform="matrix(-1 0 0 1 39 66)" fill="black"/>
+<rect width="2" height="2" transform="matrix(-1 0 0 1 41 58)" fill="black"/>
+<rect x="47" y="64" width="6" height="2" fill="black"/>
+<rect x="47" y="66" width="6" height="2" fill="black"/>
+<rect x="26" y="38" width="48" height="20" fill="white"/>
+<rect x="26" y="56" width="48" height="2" fill="black"/>
+<rect x="34" y="32" width="32" height="2" fill="white"/>
+<rect x="38" y="30" width="24" height="2" fill="white"/>
+<rect x="40" y="28" width="20" height="2" fill="white"/>
+<rect x="32" y="34" width="36" height="2" fill="white"/>
+<rect x="28" y="36" width="44" height="2" fill="white"/>
+<rect x="30" y="46" width="40" height="8" fill="black"/>
+<rect x="32" y="48" width="36" height="2" fill="white"/>
+<rect x="46" y="30" width="2" height="2" fill="black"/>
+<rect x="50" y="30" width="2" height="2" fill="black"/>
+<rect x="46" y="34" width="2" height="2" fill="black"/>
+<rect x="46" y="38" width="2" height="2" fill="black"/>
+<rect x="46" y="42" width="2" height="2" fill="black"/>
+<rect x="28" y="42" width="2" height="2" fill="black"/>
+<rect x="50" y="34" width="2" height="2" fill="black"/>
+<rect x="50" y="38" width="2" height="2" fill="black"/>
+<rect x="50" y="42" width="2" height="2" fill="black"/>
+<rect x="70" y="42" width="2" height="2" fill="black"/>
+</svg>
