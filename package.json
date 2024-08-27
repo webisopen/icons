@@ -1,6 +1,6 @@
 {
 	"name": "@rss3/web3-icons-monorepo",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Icons for Web3",
 	"license": "MIT",
 	"scripts": {
@@ -9,7 +9,7 @@
 		"postinstall": "node ./scripts/optimize-icons.mjs",
 		"lint": "biome check .",
 		"lint:fix": "biome check . --apply",
-		"release": "bumpp"
+		"release": "bumpp -r"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.8.3",
