@@ -1,7 +1,11 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
 	"files": {
-		"ignore": ["./packages/*/dist/**/*"]
+		"ignore": [
+			"./apps/docs/docs/dist/**/*",
+			"./packages/*/dist/**/*",
+			"./packages/web3-icons-react/src/icons/**"
+		]
 	},
 	"formatter": {
 		"enabled": true
@@ -15,7 +19,7 @@
 	"javascript": {
 		"formatter": {
 			"quoteStyle": "single",
-			"trailingComma": "all",
+			"trailingCommas": "all",
 			"semicolons": "asNeeded"
 		}
 	},
