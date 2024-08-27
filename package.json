@@ -8,7 +8,7 @@
 		"dev:docs": "pnpm -r --filter='./apps/docs' run dev",
 		"postinstall": "node ./scripts/optimize-icons.mjs",
 		"lint": "biome check .",
-		"lint:fix": "biome check . --apply",
+		"lint:fix": "biome check . --write",
 		"release": "bumpp -r"
 	},
 	"devDependencies": {
