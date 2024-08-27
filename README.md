@@ -16,6 +16,10 @@ import { IconEthereum } from "@rss3/web3-icons-react";
 
 For more details, please refer to <https://web3-icons.rss3.dev/>.
 
+## Contributing
+
+Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
+
 ## Projects using Web3 Icons
 
 - [RSS3 Explorer](https://explorer.rss3.io/)
