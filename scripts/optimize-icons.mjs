@@ -19,6 +19,7 @@ for (const svgFile of svgFiles) {
 				params: {
 					overrides: {
 						mergePaths: false,
+						removeViewBox: false,
 					},
 				},
 			},
@@ -29,6 +30,9 @@ for (const svgFile of svgFiles) {
 				},
 			},
 			// { name: 'removeXlink' },
+			{
+				name: 'removeDimensions',
+			},
 		],
 	})
 

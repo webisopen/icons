@@ -1,4 +1,5 @@
 import * as Icons from '@rss3/web3-icons-react'
+import { IconModal } from './icon-modal'
 
 const icons: string[] = []
 
@@ -21,19 +22,22 @@ export function Preview() {
 				// @ts-ignore
 				const Component = Icons[icon]
 				return (
-					<div
+					<IconModal
 						key={icon}
-						className="flex flex-col items-center justify-center text-center rounded-lg"
-					>
-						<Component
-							style={{
-								width: '3rem',
-								height: '3rem',
-								color: '#ccc',
-							}}
-						/>
-						<p className="text-xs mt-2">{icon.replace('Icon', '')}</p>
-					</div>
+						name={icon}
+						component={
+							<div className="flex flex-col items-center justify-center text-center rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700">
+								<Component
+									style={{
+										width: '3rem',
+										height: '3rem',
+										color: '#ccc',
+									}}
+								/>
+								<p className="text-xs mt-2">{icon.replace('Icon', '')}</p>
+							</div>
+						}
+					/>
 				)
 			})}
 		</div>
