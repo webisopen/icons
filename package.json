@@ -4,6 +4,7 @@
 	"description": "Icons for Web3",
 	"license": "MIT",
 	"scripts": {
+		"postinstall": "node ./scripts/optimize-icons.mjs",
 		"dev:docs": "pnpm -r --filter='./apps/docs' run dev",
 		"lint": "biome check .",
 		"lint:fix": "biome check . --apply",

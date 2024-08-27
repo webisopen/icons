@@ -1,6 +1,7 @@
 {
 	"name": "@rss3/web3-icons-docs",
 	"version": "0.0.0",
+	"private": true,
 	"type": "module",
 	"scripts": {
 		"postinstall": "cd ../../packages/web3-icons-react && npm run build && cd -",
