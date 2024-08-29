@@ -26,12 +26,11 @@ export function Preview() {
 						key={icon}
 						name={icon}
 						component={
-							<div className="flex flex-col items-center justify-center text-center rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700">
+							<div className="dark:text-white text-black flex flex-col items-center justify-center text-center rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700">
 								<Component
 									style={{
 										width: '3rem',
 										height: '3rem',
-										color: '#ccc',
 									}}
 								/>
 								<p className="text-xs mt-2">{icon.replace('Icon', '')}</p>
