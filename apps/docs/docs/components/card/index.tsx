@@ -3,9 +3,9 @@ export function Card({
 	href,
 	icon,
 }: {
-	title: string
-	href: string
-	icon?: string
+	title: string;
+	href: string;
+	icon?: string;
 }) {
 	return (
 		<a
@@ -17,5 +17,5 @@ export function Card({
 			</div>
 			{icon}
 		</a>
-	)
+	);
 }

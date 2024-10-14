@@ -1,17 +1,17 @@
-import * as Dialog from '@radix-ui/react-dialog'
-import { Toast } from '../toast'
+import * as Dialog from "@radix-ui/react-dialog";
+import { Toast } from "../toast";
 
 export function IconModal({
 	name,
 	component,
 }: { name: string; component: React.ReactNode }) {
-	const reactUsage = `<${name} />`
+	const reactUsage = `<${name} />`;
 	const id = name
-		.replace(/([A-Z])/g, '-$1')
+		.replace(/([A-Z])/g, "-$1")
 		.toLowerCase()
-		.replace('icon', '')
-		.replace(/^-*/, '')
-	const urlUsage = `https://unpkg.com/@rss3/web3-icons-svg@latest/icons/${id}.svg`
+		.replace("icon", "")
+		.replace(/^-*/, "");
+	const urlUsage = `https://unpkg.com/@rss3/web3-icons-svg@latest/icons/${id}.svg`;
 	return (
 		<Dialog.Root>
 			<Dialog.Trigger>{component}</Dialog.Trigger>
@@ -32,10 +32,10 @@ export function IconModal({
 								<pre
 									className="bg-zinc-100 dark:bg-zinc-900 p-4 rounded-lg cursor-pointer overflow-x-auto"
 									onClick={() => {
-										navigator.clipboard.writeText(id)
+										navigator.clipboard.writeText(id);
 									}}
 									onKeyUp={() => {
-										navigator.clipboard.writeText(id)
+										navigator.clipboard.writeText(id);
 									}}
 								>
 									{id}
@@ -52,10 +52,10 @@ export function IconModal({
 								<pre
 									className="bg-zinc-100 dark:bg-zinc-900 p-4 rounded-lg cursor-pointer overflow-x-auto"
 									onClick={() => {
-										navigator.clipboard.writeText(reactUsage)
+										navigator.clipboard.writeText(reactUsage);
 									}}
 									onKeyUp={() => {
-										navigator.clipboard.writeText(reactUsage)
+										navigator.clipboard.writeText(reactUsage);
 									}}
 								>
 									{reactUsage}
@@ -72,10 +72,10 @@ export function IconModal({
 								<pre
 									className="bg-zinc-100 dark:bg-zinc-900 p-4 rounded-lg cursor-pointer overflow-x-auto"
 									onClick={() => {
-										navigator.clipboard.writeText(urlUsage)
+										navigator.clipboard.writeText(urlUsage);
 									}}
 									onKeyUp={() => {
-										navigator.clipboard.writeText(urlUsage)
+										navigator.clipboard.writeText(urlUsage);
 									}}
 								>
 									{urlUsage}
@@ -106,5 +106,5 @@ export function IconModal({
 				</Dialog.Content>
 			</Dialog.Portal>
 		</Dialog.Root>
-	)
+	);
 }

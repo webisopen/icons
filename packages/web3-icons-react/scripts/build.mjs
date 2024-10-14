@@ -1,34 +1,34 @@
 #!/usr/bin/env node
 
-import { execSync } from 'node:child_process'
-import fs from 'node:fs/promises'
-import { dirname, resolve } from 'node:path'
-import { fileURLToPath } from 'node:url'
-import { transform as transformReact } from '@svgr/core'
-import { readSvgs } from '../../../scripts/helpers.mjs'
+import { execSync } from "node:child_process";
+import fs from "node:fs/promises";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
+import { transform as transformReact } from "@svgr/core";
+import { readSvgs } from "../../../scripts/helpers.mjs";
 
 const componentTemplate = ({ name, namePascal, children, attributes }) => `\
 import createReactComponent from '../createReactComponent';
 export default createReactComponent('${name}', '${namePascal}', ${JSON.stringify(
 	attributes,
-)}, ${JSON.stringify(children)});`
+)}, ${JSON.stringify(children)});`;
 
 const indexItemTemplate = ({ name, namePascal }) => `\
-export { default as ${namePascal} } from './icons/${namePascal}';`
+export { default as ${namePascal} } from './icons/${namePascal}';`;
 
 // 1. Build icons
-process.stdout.write('Building...')
-const DIST_DIR = resolve('.')
+process.stdout.write("Building...");
+const DIST_DIR = resolve(".");
 // clear all files in dist
 await Promise.all(
-	(await fs.readdir(resolve(DIST_DIR, 'src/icons')))
-		.filter((f) => f !== '.gitkeep')
-		.map((file) => fs.unlink(resolve(DIST_DIR, 'src/icons', file))),
-)
+	(await fs.readdir(resolve(DIST_DIR, "src/icons")))
+		.filter((f) => f !== ".gitkeep")
+		.map((file) => fs.unlink(resolve(DIST_DIR, "src/icons", file))),
+);
 
-const svgFiles = readSvgs()
-const index = []
-let ps = []
+const svgFiles = readSvgs();
+const index = [];
+let ps = [];
 // svgr
 for (const svgFile of svgFiles) {
 	ps.push({
@@ -38,45 +38,45 @@ for (const svgFile of svgFiles) {
 			icon: true,
 			plugins: [
 				// '@svgr/plugin-svgo',
-				'@svgr/plugin-jsx',
+				"@svgr/plugin-jsx",
 			],
 		}),
-	})
+	});
 }
-const svgrResults = await Promise.all(ps)
+const svgrResults = await Promise.all(ps);
 
-ps = []
+ps = [];
 
 for (const { name, code } of svgrResults) {
-	const filePath = resolve(DIST_DIR, 'src/icons', `${name}.tsx`)
-	ps.push(fs.writeFile(filePath, code, 'utf-8'))
+	const filePath = resolve(DIST_DIR, "src/icons", `${name}.tsx`);
+	ps.push(fs.writeFile(filePath, code, "utf-8"));
 	index.push(
 		indexItemTemplate({
 			name,
 			namePascal: name,
 		}),
-	)
+	);
 }
 
-await Promise.all(ps)
+await Promise.all(ps);
 
-ps = []
+ps = [];
 
 await fs.writeFile(
-	resolve(DIST_DIR, './src/icons.ts'),
-	index.join('\n'),
-	'utf-8',
-)
+	resolve(DIST_DIR, "./src/icons.ts"),
+	index.join("\n"),
+	"utf-8",
+);
 
-process.stdout.write(' DONE!\n')
+process.stdout.write(" DONE!\n");
 
 // 2. Format
 // process.stdout.write('Formatting...')
-const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
+const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 // execSync(`npx biome format ${resolve(root, 'src')} --write`, { cwd: root })
 // process.stdout.write(' DONE!\n')
 
 // 3. Compile
-process.stdout.write('Compiling...')
-execSync('npx tsup', { cwd: root })
-process.stdout.write(' DONE!\n')
+process.stdout.write("Compiling...");
+execSync("npx tsup", { cwd: root });
+process.stdout.write(" DONE!\n");

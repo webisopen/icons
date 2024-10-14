@@ -1,15 +1,15 @@
-import { defineConfig } from 'tsup'
+import { defineConfig } from "tsup";
 
 export default defineConfig((options) => ({
-	entry: ['./src/**/*'],
+	entry: ["./src/**/*"],
 	bundle: false,
-	outDir: 'dist',
+	outDir: "dist",
 	clean: true,
 	sourcemap: true,
 	treeshake: true,
-	format: ['cjs', 'esm'],
-	platform: 'node',
+	format: ["cjs", "esm"],
+	platform: "node",
 	dts: true,
-	target: 'node18',
-	external: ['react'],
-}))
+	target: "node18",
+	external: ["react"],
+}));

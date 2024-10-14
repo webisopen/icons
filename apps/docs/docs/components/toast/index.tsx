@@ -1,5 +1,5 @@
-import * as _Toast from '@radix-ui/react-toast'
-import { useState } from 'react'
+import * as _Toast from "@radix-ui/react-toast";
+import { useState } from "react";
 
 export function Toast({
 	trigger,
@@ -7,12 +7,12 @@ export function Toast({
 	description,
 	duration = 3000,
 }: {
-	trigger: React.ReactNode
-	title?: React.ReactNode
-	description?: React.ReactNode
-	duration?: number
+	trigger: React.ReactNode;
+	title?: React.ReactNode;
+	description?: React.ReactNode;
+	duration?: number;
 }) {
-	const [open, setOpen] = useState(false)
+	const [open, setOpen] = useState(false);
 	return (
 		<_Toast.Provider duration={duration} swipeDirection="right">
 			<div onClick={() => setOpen(true)} onKeyDown={() => setOpen(true)}>
@@ -34,5 +34,5 @@ export function Toast({
 			</_Toast.Root>
 			<_Toast.Viewport className="fixed bottom-5 right-5" />
 		</_Toast.Provider>
-	)
+	);
 }
