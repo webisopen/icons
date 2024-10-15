@@ -1,7 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { optimize } from "svgo";
-import svgo from "svgo";
 import { ICONS_DIR, readSvgDirectory } from "./helpers.mjs";
 
 const svgoAddTitle = {
