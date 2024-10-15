@@ -1,3 +1,1 @@
-<svg height="35px" width="35" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M30.6525 17.4069V0L0 8.6333V8.77358V29.2266V29.3668L30.6525 38.0001V20.5933V17.4069ZM27.6857 16.5713V3.8835L5.16277 10.2277L27.6857 16.5713ZM25.4849 19.0001L2.96678 12.6572V25.3429L25.4849 19.0001ZM5.16283 27.7724L27.6857 34.1166V21.4289L5.16283 27.7724Z" fill="currentColor"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 38 38"><title>polymarket-mono</title><path fill="currentColor" fill-rule="evenodd" d="M30.653 17.407V0L0 8.633v20.734L30.653 38zm-2.967-.836V3.883L5.163 10.229zm-2.201 2.43L2.967 12.656v12.686zm-20.322 8.77 22.523 6.345V21.429z" clip-rule="evenodd"/></svg>
