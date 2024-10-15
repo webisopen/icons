@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 185">
-  <path fill="url(#mirror_svg__a)" d="M0 71.613C0 32.063 32.062 0 71.613 0s71.613 32.062 71.613 71.613v102.505c0 6.01-4.872 10.882-10.883 10.882H10.883C4.872 185 0 180.128 0 174.118z"/>
-  <path fill="#007AFF" fill-rule="evenodd" d="M134.717 176.111V71.821c0-34.953-28.252-63.288-63.104-63.288S8.508 36.868 8.508 71.822V176.11c0 .197.16.356.355.356h125.5a.354.354 0 0 0 .354-.356M71.613 0C32.063 0 0 32.156 0 71.822V176.11c0 4.91 3.968 8.89 8.863 8.89h125.5c4.895 0 8.863-3.98 8.863-8.889V71.821C143.226 32.157 111.164 0 71.613 0" clip-rule="evenodd"/>
-  <defs>
-    <linearGradient id="mirror_svg__a" x1="18.435" x2="143.747" y1="10.667" y2="209.447" gradientUnits="userSpaceOnUse">
-      <stop offset=".266" stop-color="#fff"/>
-      <stop offset=".734" stop-color="#007AFF"/>
-    </linearGradient>
-  </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 185"><path fill="url(#mirror_svg__a)" d="M0 71.613C0 32.063 32.062 0 71.613 0s71.613 32.062 71.613 71.613v102.505c0 6.01-4.872 10.882-10.883 10.882H10.883C4.872 185 0 180.128 0 174.118z"/><path fill="#007AFF" fill-rule="evenodd" d="M134.717 176.111V71.821c0-34.953-28.252-63.288-63.104-63.288S8.508 36.868 8.508 71.822V176.11c0 .197.16.356.355.356h125.5a.354.354 0 0 0 .354-.356M71.613 0C32.063 0 0 32.156 0 71.822V176.11c0 4.91 3.968 8.89 8.863 8.89h125.5c4.895 0 8.863-3.98 8.863-8.889V71.821C143.226 32.157 111.164 0 71.613 0" clip-rule="evenodd"/><defs><linearGradient id="mirror_svg__a" x1="18.435" x2="143.747" y1="10.667" y2="209.447" gradientUnits="userSpaceOnUse"><stop offset=".266" stop-color="#fff"/><stop offset=".734" stop-color="#007AFF"/></linearGradient></defs></svg>

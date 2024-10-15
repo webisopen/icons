@@ -11,7 +11,7 @@ for (const svgFile of svgFiles) {
 	const data = await fs.readFile(path.join(ICONS_DIR, svgFile), "utf-8");
 	const result = optimize(data, {
 		path: path.join(ICONS_DIR, svgFile),
-		js2svg: { indent: 2, pretty: true },
+		// js2svg: { indent: 2, pretty: true },
 		multipass: true,
 		plugins: [
 			{
@@ -32,6 +32,9 @@ for (const svgFile of svgFiles) {
 			// { name: 'removeXlink' },
 			{
 				name: "removeDimensions",
+			},
+			{
+				name: "cleanupAttrs",
 			},
 		],
 	});
