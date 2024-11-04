@@ -12,4 +12,13 @@ npm install @webisopen/icons-vue
 <template>
   <IconBitcoin />
 </template>
-```
+
+<script>
+import { IconBitcoin } from '@webisopen/icons-vue'
+
+export default {
+  components: {
+    IconBitcoin
+  }
+}
+</script>
