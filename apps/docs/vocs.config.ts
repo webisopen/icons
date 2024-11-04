@@ -1,7 +1,7 @@
 import { defineConfig } from "vocs";
 
 export default defineConfig({
-	title: "Web3 Icons",
+	title: "Open Web Icons",
 	sidebar: [
 		{
 			text: "Getting Started",

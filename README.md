@@ -5,16 +5,16 @@ This repository contains a collection of icons commonly seen in Web3 application
 ## Usage
 
 ```bash
-pnpm i @rss3/web3-icons-react
+pnpm i @webisopen/icons-react
 ```
 
 ```js
-import { IconEthereum } from "@rss3/web3-icons-react";
+import { IconEthereum } from "@webisopen/icons-react";
 
 <IconEthereum />;
 ```
 
-For more details, please refer to <https://web3-icons.rss3.dev/>.
+For more details, please refer to <https://icons.webisopen.com/>.
 
 ## Contributing
 

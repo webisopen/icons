@@ -129,10 +129,10 @@ out
 .DS_Store
 
 # generated
-packages/web3-icons-react/src/icons/*.tsx
-packages/web3-icons-react/src/icons.ts
-packages/web3-icons-svg/icons
+packages/icons-react/src/icons/*.tsx
+packages/icons-react/src/icons.ts
+packages/icons-svg/icons
 
 # dist
-packages/web3-icons*/dist
+packages/icons*/dist
 apps/docs/docs/dist

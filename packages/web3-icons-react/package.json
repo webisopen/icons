@@ -1,7 +1,7 @@
 {
-	"name": "@rss3/web3-icons-react",
+	"name": "@webisopen/icons-react",
 	"version": "0.0.16",
-	"description": "React Icons for Web3",
+	"description": "React Icons for Open Web",
 	"license": "MIT",
 	"exports": {
 		".": {

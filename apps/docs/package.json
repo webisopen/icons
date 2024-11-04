@@ -1,18 +1,18 @@
 {
-	"name": "@rss3/web3-icons-docs",
+	"name": "@webisopen/icons-docs",
 	"version": "0.0.16",
 	"private": true,
 	"type": "module",
 	"scripts": {
 		"build": "vocs build",
 		"dev": "vocs dev",
-		"postinstall": "cd ../../packages/web3-icons-react && npm run build && cd -",
+		"postinstall": "cd ../../packages/icons-react && npm run build && cd -",
 		"preview": "vocs preview"
 	},
 	"dependencies": {
 		"@radix-ui/react-dialog": "^1.1.1",
 		"@radix-ui/react-toast": "^1.2.1",
-		"@rss3/web3-icons-react": "workspace:^",
+		"@webisopen/icons-react": "workspace:^",
 		"@types/react": "^18.3.4",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",

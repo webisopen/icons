@@ -11,7 +11,7 @@ export function IconModal({
 		.toLowerCase()
 		.replace("icon", "")
 		.replace(/^-*/, "");
-	const urlUsage = `https://unpkg.com/@rss3/web3-icons-svg@latest/icons/${id}.svg`;
+	const urlUsage = `https://unpkg.com/@webisopen/icons-svg@latest/icons/${id}.svg`;
 	return (
 		<Dialog.Root>
 			<Dialog.Trigger>{component}</Dialog.Trigger>

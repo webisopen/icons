@@ -41,9 +41,9 @@ importers:
       '@radix-ui/react-toast':
         specifier: ^1.2.1
         version: 1.2.1(@types/react@18.3.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rss3/web3-icons-react':
+      '@webisopen/icons-react':
         specifier: workspace:^
-        version: link:../../packages/web3-icons-react
+        version: link:../../packages/icons-react
       '@types/react':
         specifier: ^18.3.4
         version: 18.3.4
@@ -60,7 +60,7 @@ importers:
         specifier: ^1.0.0-alpha.55
         version: 1.0.0-alpha.55(@types/node@22.7.5)(@types/react@18.3.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.21.1)(typescript@5.5.4)
 
-  packages/web3-icons-react:
+  packages/icons-react:
     devDependencies:
       '@svgr/core':
         specifier: ^8.1.0
@@ -81,7 +81,7 @@ importers:
         specifier: ^8.2.4
         version: 8.2.4(jiti@1.21.6)(postcss@8.4.41)(typescript@5.6.3)
 
-  packages/web3-icons-svg: {}
+  packages/icons-svg: {}
 
 packages:
 

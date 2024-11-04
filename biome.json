@@ -4,7 +4,7 @@
 		"ignore": [
 			"./apps/docs/docs/dist/**/*",
 			"./packages/*/dist/**/*",
-			"./packages/web3-icons-react/src/icons/**"
+			"./packages/icons-react/src/icons/**"
 		]
 	}
 }

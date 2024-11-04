@@ -1,4 +1,4 @@
-import * as Icons from "@rss3/web3-icons-react";
+import * as Icons from "@webisopen/icons-react";
 import { IconModal } from "./icon-modal";
 
 const icons: string[] = [];
