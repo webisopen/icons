@@ -133,6 +133,9 @@ packages/icons-react/src/icons/*.tsx
 packages/icons-react/src/icons.ts
 packages/icons-vue/src/icons/*.ts
 packages/icons-vue/src/icons.ts
+packages/icons-svelte/src/icons/*.svelte
+packages/icons-svelte/src/icons.ts
+.svelte-kit
 packages/icons-svg/icons
 
 # dist

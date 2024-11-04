@@ -10,6 +10,15 @@ const ROOT_DIR = path.resolve(__dirname, "..");
 
 /**
  * Build icons
+ *
+ * @param {Object} params
+ * @param {string} params.name - Package name
+ * @param {Function} params.componentTemplate - Template for the icon component
+ * @param {Function} params.indexItemTemplate - Template for the index item
+ * @param {boolean} params.key - Whether to add a key attribute to the icon component
+ * @param {boolean} params.pascalCase - Whether to convert the icon name to PascalCase
+ * @param {("ts" | "svelte")} params.extension - File extension for generated icon components
+ * @returns {Promise<void>}
  */
 export const buildIcons = async ({
 	name,
@@ -17,6 +26,7 @@ export const buildIcons = async ({
 	indexItemTemplate,
 	key = true,
 	pascalCase = false,
+	extension = "ts",
 }) => {
 	const DIST_DIR = path.resolve(PACKAGES_DIR, name);
 	// clear all files in dist
@@ -69,7 +79,7 @@ export const buildIcons = async ({
 		const filePath = path.resolve(
 			DIST_DIR,
 			"src/icons",
-			`${svgFile.namePascal}.ts`,
+			`${svgFile.namePascal}.${extension}`,
 		);
 
 		ps.push(fs.writeFile(filePath, component, "utf-8"));
