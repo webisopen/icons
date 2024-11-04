@@ -12,7 +12,8 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/webisopen/icons.git"
+		"url": "git+https://github.com/webisopen/icons.git",
+		"directory": "packages/icons-svg"
 	},
 	"homepage": "https://icons.webisopen.com",
 	"bugs": {

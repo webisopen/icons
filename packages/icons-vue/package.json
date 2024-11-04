@@ -1,7 +1,7 @@
 {
-	"name": "@webisopen/icons-react",
+	"name": "@webisopen/icons-vue",
 	"version": "0.0.18",
-	"description": "React Icons for Open Web",
+	"description": "Vue Icons for Open Web",
 	"license": "MIT",
 	"exports": {
 		".": {
@@ -33,28 +33,24 @@
 		"build": "node ./scripts/build.mjs"
 	},
 	"devDependencies": {
-		"@svgr/core": "^8.1.0",
-		"@svgr/plugin-jsx": "^8.1.0",
-		"@svgr/plugin-svgo": "^8.1.0",
-		"@types/react": "^18.3.12",
-		"react": "^18.3.1",
+		"vue": "^3.4.10",
 		"tsup": "^8.3.5"
 	},
 	"publishConfig": {
 		"access": "public"
 	},
 	"peerDependencies": {
-		"react": ">= 18 || >= 19"
+		"vue": ">= 3"
 	},
 	"peerDependenciesMeta": {
-		"react": {
+		"vue": {
 			"optional": true
 		}
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/webisopen/icons.git",
-		"directory": "packages/icons-react"
+		"directory": "packages/icons-vue"
 	},
 	"homepage": "https://icons.webisopen.com",
 	"bugs": {

@@ -1,5 +1,3 @@
-{/* WARNING: This is an auto-generated file from the build script. Do not edit directly. */}
-
 # SVG
 
 ## Install

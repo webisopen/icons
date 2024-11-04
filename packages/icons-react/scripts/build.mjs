@@ -5,6 +5,7 @@ import fs from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { transform as transformReact } from "@svgr/core";
+import { copyDocs } from "../../../scripts/build-icons.mjs";
 import { readSvgs } from "../../../scripts/helpers.mjs";
 
 const componentTemplate = ({ name, namePascal, children, attributes }) => `\
@@ -79,4 +80,9 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 // 3. Compile
 process.stdout.write("Compiling...");
 execSync("npx tsup", { cwd: root });
+process.stdout.write(" DONE!\n");
+
+// 4. Copy README.md to docs/pages/integrations/{name}.mdx
+process.stdout.write("Copying README.md to docs/pages/integrations/...");
+await copyDocs("icons-react");
 process.stdout.write(" DONE!\n");

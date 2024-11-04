@@ -3,6 +3,7 @@
 import fs from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { copyDocs } from "../../../scripts/build-icons.mjs";
 
 // copy icons
 
@@ -22,5 +23,8 @@ await Promise.all(
 		fs.copyFile(resolve(SRC_DIR, file), resolve(DIST_DIR, file)),
 	),
 );
+
+// Copy README.md to docs/pages/integrations/{name}.mdx
+await copyDocs("icons-svg");
 
 console.log("Done!");

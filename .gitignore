@@ -131,8 +131,11 @@ out
 # generated
 packages/icons-react/src/icons/*.tsx
 packages/icons-react/src/icons.ts
+packages/icons-vue/src/icons/*.ts
+packages/icons-vue/src/icons.ts
 packages/icons-svg/icons
 
 # dist
 packages/icons*/dist
 apps/docs/docs/dist
+apps/docs/pages/integrations/*.mdx

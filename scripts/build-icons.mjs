@@ -1,8 +1,12 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { transform as transformReact } from "@svgr/core";
+import { fileURLToPath } from "node:url";
 import { stringify } from "svgson";
 import { PACKAGES_DIR, readSvgs } from "./helpers.mjs";
+
+const __dirname = fileURLToPath(new URL(".", import.meta.url));
+
+const ROOT_DIR = path.resolve(__dirname, "..");
 
 /**
  * Build icons
@@ -45,9 +49,9 @@ export const buildIcons = async ({
 					}
 				}
 
-				return { name, attributes };
+				return [name, attributes];
 			})
-			.filter(({ attributes }) => {
+			.filter(([_, attributes]) => {
 				return !attributes.d || attributes.d !== "M0 0h24v24H0z";
 			});
 
@@ -83,6 +87,28 @@ export const buildIcons = async ({
 	await fs.writeFile(
 		path.resolve(DIST_DIR, "./src/icons.ts"),
 		index.join("\n"),
+		"utf-8",
+	);
+};
+
+/**
+ * copy README.md to docs/pages/integrations/{name}.mdx
+ */
+export const copyDocs = async (name) => {
+	const DIST_DIR = path.resolve(PACKAGES_DIR, name);
+	const DOCS_DIR = path.resolve(ROOT_DIR, "apps/docs/docs/pages/integrations");
+	const pureName = name.replace("icons-", "");
+	await fs.copyFile(
+		path.resolve(DIST_DIR, "README.md"),
+		path.resolve(DOCS_DIR, `${pureName}.mdx`),
+	);
+	// prepend warning to the top of the file
+	const warning =
+		"{/* WARNING: This is an auto-generated file from the build script. Do not edit directly. */}\n\n";
+	await fs.writeFile(
+		path.resolve(DOCS_DIR, `${pureName}.mdx`),
+		warning +
+			(await fs.readFile(path.resolve(DOCS_DIR, `${pureName}.mdx`), "utf-8")),
 		"utf-8",
 	);
 };
