@@ -44,5 +44,5 @@ process.stdout.write(" DONE!\n");
 
 // 4. Copy README.md to docs/pages/integrations/{name}.mdx
 process.stdout.write("Copying README.md to docs/pages/integrations/...");
-await copyDocs("icons-vue");
+await copyDocs("icons-svelte");
 process.stdout.write(" DONE!\n");
