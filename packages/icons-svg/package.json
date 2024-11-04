@@ -9,5 +9,13 @@
 	"files": ["icons"],
 	"publishConfig": {
 		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/webisopen/icons.git"
+	},
+	"homepage": "https://icons.webisopen.com",
+	"bugs": {
+		"url": "https://github.com/webisopen/icons/issues"
 	}
 }

@@ -28,7 +28,9 @@
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.ts",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "node ./scripts/build.mjs"
 	},
@@ -36,11 +38,27 @@
 		"@svgr/core": "^8.1.0",
 		"@svgr/plugin-jsx": "^8.1.0",
 		"@svgr/plugin-svgo": "^8.1.0",
-		"@types/react": "^18.3.4",
+		"@types/react": "^18.3.12",
 		"react": "^18.3.1",
-		"tsup": "^8.2.4"
+		"tsup": "^8.3.5"
 	},
 	"publishConfig": {
 		"access": "public"
+	},
+	"peerDependencies": {
+		"react": ">= 18 || >= 19"
+	},
+	"peerDependenciesMeta": {
+		"react": {
+			"optional": true
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/webisopen/icons.git"
+	},
+	"homepage": "https://icons.webisopen.com",
+	"bugs": {
+		"url": "https://github.com/webisopen/icons/issues"
 	}
 }
