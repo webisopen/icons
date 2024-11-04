@@ -1,6 +1,6 @@
 {
 	"name": "@webisopen/icons-svelte",
-	"version": "0.0.18",
+	"version": "0.0.19",
 	"description": "Svelte Icons for Open Web",
 	"license": "MIT",
 	"exports": {
