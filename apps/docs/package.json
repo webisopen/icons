@@ -6,7 +6,7 @@
 	"scripts": {
 		"build": "vocs build",
 		"dev": "vocs dev",
-		"postinstall": "cd ../../packages/icons-react && npm run build && cd -",
+		"postinstall": "cd ../../ && pnpm run build && cd -",
 		"preview": "vocs preview"
 	},
 	"dependencies": {
