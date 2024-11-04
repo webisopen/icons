@@ -1,8 +1,16 @@
-# Web3 Icons
+# Open Web Icons
 
-This repository contains a collection of icons commonly seen in Web3 applications.
+This repository contains a collection of icons commonly seen in Open Web applications.
 
 ## Usage
+
+### SVG
+
+```bash
+https://unpkg.com/@webisopen/icons-svg@latest/icons/ethereum.svg
+```
+
+### React
 
 ```bash
 pnpm i @webisopen/icons-react
@@ -20,7 +28,7 @@ For more details, please refer to <https://icons.webisopen.com/>.
 
 Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
 
-## Projects using Web3 Icons
+## Projects using Open Web Icons
 
 - [RSS3 Explorer](https://explorer.rss3.io/)
 - [RSS3 VSL Scan](https://scan.rss3.io/)
