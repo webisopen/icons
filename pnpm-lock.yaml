@@ -44,18 +44,9 @@ importers:
       '@types/react':
         specifier: ^18.3.12
         version: 18.3.12
-      '@webisopen/icons-iconify-json':
-        specifier: workspace:^
-        version: link:../../packages/icons-iconify-json
       '@webisopen/icons-react':
         specifier: workspace:^
         version: link:../../packages/icons-react
-      '@webisopen/icons-svelte':
-        specifier: workspace:^
-        version: link:../../packages/icons-svelte
-      '@webisopen/icons-vue':
-        specifier: workspace:^
-        version: link:../../packages/icons-vue
       react:
         specifier: ^18.3.1
         version: 18.3.1
