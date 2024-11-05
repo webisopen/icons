@@ -26,6 +26,10 @@ export default defineConfig({
 					text: "Svelte",
 					link: "/integrations/svelte",
 				},
+				{
+					text: "Iconify JSON",
+					link: "/integrations/iconify-json",
+				},
 			],
 		},
 	],

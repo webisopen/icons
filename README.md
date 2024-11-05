@@ -2,6 +2,13 @@
 
 This repository contains a collection of icons commonly seen in Open Web applications.
 
+Supports:
+
+- [SVG](https://github.com/webisopen/icons/tree/main/packages/icons-svg)
+- [React](https://github.com/webisopen/icons/tree/main/packages/icons-react)
+- [Vue](https://github.com/webisopen/icons/tree/main/packages/icons-vue)
+- [Svelte](https://github.com/webisopen/icons/tree/main/packages/icons-svelte)
+
 ## Usage
 
 ### SVG
