@@ -6,6 +6,7 @@
 			"./packages/*/dist/**/*",
 			"./packages/icons-react/src/icons/**",
 			"./packages/icons-vue/src/icons/**",
+			"./packages/icons-svelte/.svelte-kit/**",
 			"./packages/icons-svg/icons/**"
 		]
 	}
